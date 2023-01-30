@@ -130,4 +130,17 @@ function fullName(first, last) {
 
 var first = 'Md';
 var last = 'Sadiq';
-fullName(first, last);
+// fullName(first, last);
+
+
+/*------------------
+\- problem number Nine -\
+-------------------*/
+
+
+const pizza = {
+    toppings: ['cheese', 'sauce', 'pepperoni'],
+    crust: 'deep dish',
+    serves: 2
+}
+console.log(pizza.toppings[2]);
