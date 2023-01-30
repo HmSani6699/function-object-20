@@ -26,7 +26,7 @@ function number_1(num1, num2, num3) {
 -------------------*/
 var arry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-function number(array) {
+function number_2(array) {
     var sum = 0;
     // var sebit = 0;
     for (var i = 0; i <= array.length; i++) {
@@ -35,5 +35,20 @@ function number(array) {
     var debit = sum / array.length;
     return debit
 }
-// console.log(number(arry))
+// console.log(number_2(arry))
 
+
+/*------------------
+\- problem number four -\
+-------------------*/
+function number_3(num) {
+    var modula = num % 2;
+    return modula
+}
+
+// console.log('it is event number', number_3(20))
+
+function number_4(num) {
+    console.log('it is odd number', num % 2)
+}
+// number_4(29)
