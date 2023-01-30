@@ -104,4 +104,17 @@ function namta(num) {
         console.log(num + ' x' + ' ' + i + ' = ' + num * i)
     }
 }
-namta(5)
+// namta(5)
+
+
+
+/*------------------
+\- problem number seven -\
+-------------------*/
+
+function name(latter) {
+    return latter = 'md sdiqur rahman sani';
+}
+var latter = 'MD SADIQUR RAHMAN SANI';
+console.log(latter)
+console.log(name(latter))
