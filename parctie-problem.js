@@ -52,3 +52,34 @@ function number_4(num) {
     console.log('it is odd number', num % 2)
 }
 // number_4(29)
+
+
+/*------------------
+\- problem number five -\
+-------------------*/
+
+var color = 'red';
+if (color === 'red') {
+    // console.log('you may be in danger . ')
+}
+else if (color === 'yellow') {
+    console.log('ami yellow color');
+}
+else {
+    console.log('ami green color')
+}
+
+/* 
+---switch---
+*/
+var color = 'yellow';
+switch (color) {
+    case 'red':
+        console.log('ami red color');
+        break;
+    case 'yellow':
+        console.log('ami yellow color');
+        break;
+    default:
+    // console.log('ami green color')
+}
