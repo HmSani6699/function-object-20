@@ -28,3 +28,22 @@ for (var propertyName in man) {
     var value = man[propertyName];
     // console.log(propertyName, value)
 }
+
+
+
+var computer = {
+    minitor: 'Hd',
+    pc: '500gb',
+    box: 2,
+    mouse: 'black'
+}
+
+var property = Object.keys(computer);
+for (var i = 0; i < property.length; i++) {
+    console.log(property[i], computer[property[i]])
+}
+
+
+for (var propertyName in computer) {
+    // console.log(propertyName, computer[propertyName]);
+}
