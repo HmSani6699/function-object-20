@@ -40,10 +40,24 @@ var computer = {
 
 var property = Object.keys(computer);
 for (var i = 0; i < property.length; i++) {
-    console.log(property[i], computer[property[i]])
+    // console.log(property[i], computer[property[i]])
 }
 
 
 for (var propertyName in computer) {
     // console.log(propertyName, computer[propertyName]);
 }
+
+
+
+
+var computer = {
+    minitor: 'Hd',
+    pc: '500gb',
+    box: 2,
+    mouse: 'black'
+}
+
+
+var objectsEntries = Object.entries(computer);
+console.log(objectsEntries)
