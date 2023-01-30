@@ -78,8 +78,30 @@ switch (color) {
         console.log('ami red color');
         break;
     case 'yellow':
-        console.log('ami yellow color');
+        // console.log('ami yellow color');
         break;
     default:
     // console.log('ami green color')
 }
+
+
+
+/*------------------
+\- problem number six -\
+-------------------*/
+
+function number_5(num) {
+    for (var i = 1; i <= 10; i++) {
+        var multiplication = num * i;
+        console.log(num + ' X' + ' ' + i + ' = ' + multiplication)
+    }
+}
+// number_5(13)
+
+
+function namta(num) {
+    for (var i = 1; i <= 10; i++) {
+        console.log(num + ' x' + ' ' + i + ' = ' + num * i)
+    }
+}
+namta(5)
