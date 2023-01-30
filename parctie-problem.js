@@ -116,5 +116,18 @@ function name(latter) {
     return latter = 'md sdiqur rahman sani';
 }
 var latter = 'MD SADIQUR RAHMAN SANI';
-console.log(latter)
-console.log(name(latter))
+// console.log(latter)
+// console.log(name(latter))
+
+
+/*------------------
+\- problem number eight -\
+-------------------*/
+
+function fullName(first, last) {
+    console.log(first + " " + last);
+}
+
+var first = 'Md';
+var last = 'Sadiq';
+fullName(first, last);
