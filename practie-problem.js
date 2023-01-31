@@ -136,11 +136,21 @@ var last = 'Sadiq';
 /*------------------
 \- problem number Nine -\
 -------------------*/
-
-
 const pizza = {
     toppings: ['cheese', 'sauce', 'pepperoni'],
     crust: 'deep dish',
     serves: 2
 }
-console.log(pizza.toppings[2]);
+// console.log(pizza.toppings[2]);
+
+
+
+/*------------------
+\- problem number Ten -\
+-------------------*/
+function square(num) {
+    var result = num * num;
+    return result;
+}
+console.log(square(2));
+console.log(square(5));
