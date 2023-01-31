@@ -111,13 +111,13 @@ function namta(num) {
 /*------------------
 \- problem number seven -\
 -------------------*/
-
 function name(latter) {
-    return latter = 'md sdiqur rahman sani';
+    var newName = latter.toLowerCase()
+    return newName;
 }
 var latter = 'MD SADIQUR RAHMAN SANI';
-// console.log(latter)
-// console.log(name(latter))
+var toLowerCase = name(latter);
+// console.log(toLowerCase)
 
 
 /*------------------
